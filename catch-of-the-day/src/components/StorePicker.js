@@ -1,5 +1,4 @@
 import React from 'react';
-import {getFunName} from '../helpers';
 
 class StorePicker extends React.Component {
     render() {
@@ -8,7 +7,7 @@ class StorePicker extends React.Component {
             { /* Fragment Allows sibling HTML elements */ }
             <form action="" className="store-selector">
                     <h2>Please Enter A Store!</h2> 
-                    <input type="text" required placeholder="Store Name" defaultValue={getFunName()} />
+                    <input type="text" required placeholder="Store Name"/>
                     <button type="submit"> Visit Store >> </button>
                 </form>
             </React.Fragment>
